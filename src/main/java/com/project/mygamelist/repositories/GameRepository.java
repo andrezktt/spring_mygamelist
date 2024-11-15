@@ -3,6 +3,7 @@ package com.project.mygamelist.repositories;
 import com.project.mygamelist.entities.Game;
 import com.project.mygamelist.projections.GameMinProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
